@@ -1,16 +1,14 @@
-## Hi there 👋
+# Heya! 🚀
 
-<!--
-**haojunsng/haojunsng** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I'm a data person who enjoys building stuff. Data is king,  but the real excitement starts with creating innovative data solutions. Dive into my projects and feel free to share your thoughts and critiques 😄
 
-Here are some ideas to get you started:
+# Current Projects 🛠️
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- [**data_voyager**](https://github.com/haojunsng/data_voyager): A containerized ELT pipeline that ingests data from Strava and Open Meteo APIs, processes it into S3 and Postgres, and uses dbt for modeling.
+
+- [**data_gateway**](https://github.com/haojunsng/data_gateway): A Gin-based API service that provides a data access layer for interacting with the processed data from the data_voyager pipeline.
+
+## Contact
+
+- **Email** 📧 : [snghaojun18@gmail.com](mailto:snghaojun18@gmail.com)
+- **LinkedIn** 💬 : [snghaojun](https://www.linkedin.com/in/snghaojun)
