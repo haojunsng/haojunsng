@@ -2,7 +2,7 @@
 
 I'm a data person who enjoys building stuff. Data is king,  but the real excitement starts with creating innovative data solutions. Dive into my projects and feel free to share your thoughts and critiques 😄
 
-# Current Projects 🛠️
+# My 5 to 9 -
 
 - [**data_voyager**](https://github.com/haojunsng/data_voyager): A containerized ELT pipeline that ingests fitness data from Strava and weather data via Open Meteo APIs, processes it into S3 then Postgres, and uses `dbt` for modeling in Supabase.
 
