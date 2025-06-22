@@ -4,7 +4,11 @@ I'm a data person who enjoys building stuff. Data is king,  but the real excitem
 
 # My 5 to 9 -
 
-- [**data_voyager**](https://github.com/haojunsng/data_voyager): A containerized ELT pipeline that ingests fitness data from Strava and weather data via Open Meteo APIs, processes it into S3 then Postgres, and uses `dbt` for modeling in Supabase.
+- [**data_voyager**](https://github.com/haojunsng/data_voyager):
+A containerized ELT pipeline that ingests fitness data from Strava and weather data via Open Meteo APIs, processes it into S3 then Postgres, and uses `dbt` for modeling in Supabase.
+
+- [**data_robot**](https://github.com/haojunsng/data_robot)
+A robot capable of automating workflows for all the little QOLs.
 
 - [**sh-datrun-dp**](https://github.com/prosh2/sh-datrun-dp): 
 A lightweight, serverless data pipeline built with AWS Lambda and EventBridge to extract data from Firestore and land it into S3. Data is then transformed via `sqlmesh` and readied within the DuckDB (MotherDuck) warehousing layer.
