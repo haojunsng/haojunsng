@@ -51,8 +51,10 @@ I like building stuff. It started with just moving data. Then I needed to expose
 
 ## Bounty Poster
 
-![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=haojunsng&show_icons=true&theme=radical&hide_border=true)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=haojunsng&layout=compact&theme=radical&hide_border=true)
+<p align="center">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=haojunsng&show_icons=true&theme=radical&hide_border=true" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=haojunsng&layout=compact&theme=radical&hide_border=true" />
+</p>
 
 ---
 
