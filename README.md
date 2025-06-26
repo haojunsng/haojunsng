@@ -1,6 +1,6 @@
 # Heya!
 
-I like building stuff. It started with just moving data. Then I needed to expose it. Then secure it. Then protect it. One thing led to another… now I’m building whatever it takes to keep things running — live and secure.
+I like building stuff. It started with just moving data. Then I needed to expose it. Then secure it. Then protect it. One thing led to another... now I’m building whatever it takes — pipelines, APIs, bots, infra, schedulers — to keep things running, live and secure.
 
 # My 5 to 9 -
 
