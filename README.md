@@ -61,6 +61,12 @@ I like building stuff. It started with just moving data. Then I needed to expose
 
 ## Crew Members
 
+### sh-luffy
+*My personal website*
+- **Next.js + React + Tailwind + Cloudflare Pages**
+- Link to my website above!
+- [View Project](https://github.com/haojunsng/sh-luffy)
+
 ### sh-vegapunk
 *Automation with Serverless Architecture*
 - **Cloudflare Workers** + **AWS Lambda** + **Terraform**
