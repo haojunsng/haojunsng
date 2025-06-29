@@ -63,7 +63,7 @@ I like building stuff. It started with just moving data. Then I needed to expose
 
 ### sh-luffy
 *My personal website*
-- **Next.js + React + Tailwind + Cloudflare Pages**
+- **Next.js + Tailwind + Cloudflare Pages**
 - Link to my website above!
 - [View Project](https://github.com/haojunsng/sh-luffy)
 
