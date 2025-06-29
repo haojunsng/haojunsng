@@ -180,55 +180,21 @@ I like building stuff. It started with just moving data. Then I needed to expose
     </path>
   </svg>
   <!-- Thousand Sunny Ship -->
-  <div
-    style="
-      position: absolute;
-      bottom: 0px;
-      left: 50%;
-      z-index: 10;
-    "
-  >
-    <img
-      src="assets/thousand-sunny.png"
-      width="100"
-      height="120"
-      style="
-        animation: sailCombo 8s ease-in-out infinite;
-        filter: brightness(1.25) contrast(1.1)
-          drop-shadow(0 4px 8px rgba(0, 0, 0, 0.3)) saturate(1.1);
-      "
-    />
+  <div style="position: absolute; bottom: 20px; left: 50%; transform: translateX(-50%); z-index: 10;">
+    <svg width="70" height="80" viewBox="0 0 70 80">
+      <defs>
+        <filter id="enhance">
+          <feColorMatrix type="matrix" values="1.25 0 0 0 0 0 1.25 0 0 0 0 0 1.25 0 0 0 0 0 1 0"/>
+          <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="rgba(0,0,0,0.3)"/>
+        </filter>
+      </defs>
+      <image href="assets/thousand-sunny.png" width="70" height="80" filter="url(#enhance)">
+        <animateTransform attributeName="transform" 
+                          type="translate" 
+                          values="0,0; 0,-5; 0,0" 
+                          dur="3s" 
+                          repeatCount="indefinite"/>
+      </image>
+    </svg>
   </div>
 </div>
-
-<style>
-  @keyframes sailCombo {
-  0% {
-    transform: translate(-400px, -3px) rotate(0deg);
-  }
-  12.5% {
-    transform: translate(-250px, 3px) rotate(5deg);
-  }
-  25% {
-    transform: translate(-100px, -3px) rotate(7.5deg);
-  }
-  37.5% {
-    transform: translate(50px, 3px) rotate(5deg);
-  }
-  50% {
-    transform: translate(200px, -3px) rotate(2.5deg);
-  }
-  62.5% {
-    transform: translate(50px, 3px) rotate(-5deg);
-  }
-  75% {
-    transform: translate(-100px, -3px) rotate(-7.5deg);
-  }
-  87.5% {
-    transform: translate(-250px, 3px) rotate(-5deg);
-  }
-  100% {
-    transform: translate(-400px, -3px) rotate(2.5deg);
-  }
-}
-</style>
