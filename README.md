@@ -108,3 +108,127 @@ I like building stuff. It started with just moving data. Then I needed to expose
 
 - **Email** 📧 : [snghaojun18@gmail.com](mailto:snghaojun18@gmail.com)
 - **LinkedIn** 💬 : [snghaojun](https://www.linkedin.com/in/snghaojun)
+
+<div style="position: relative; height: 150px; overflow: hidden; margin: 20px 0; width: 100%;">
+  <!-- Wave 1 - Deep -->
+  <svg
+    style="position: absolute; bottom: 0; width: 100%; height: 40px;"
+    viewBox="0 0 1200 120"
+    preserveAspectRatio="none"
+  >
+    <path
+      d="M0,120 L0,60 Q300,30 600,60 T1200,60 L1200,120 Z"
+      fill="#1e40af"
+      opacity="0.4"
+    >
+      <animate
+        attributeName="d"
+        dur="3s"
+        repeatCount="indefinite"
+        values="
+          M0,120 L0,60 Q300,30 600,60 T1200,60 L1200,120 Z;
+          M0,120 L0,30 Q300,60 600,30 T1200,30 L1200,120 Z;
+          M0,120 L0,60 Q300,30 600,60 T1200,60 L1200,120 Z
+        "
+      />
+    </path>
+  </svg>
+  <!-- Wave 2 - Medium -->
+  <svg
+    style="position: absolute; bottom: 0; width: 100%; height: 50px;"
+    viewBox="0 0 1200 120"
+    preserveAspectRatio="none"
+  >
+    <path
+      d="M0,120 L0,50 Q300,20 600,50 T1200,50 L1200,120 Z"
+      fill="#3b82f6"
+      opacity="0.6"
+    >
+      <animate
+        attributeName="d"
+        dur="2.5s"
+        repeatCount="indefinite"
+        values="
+          M0,120 L0,50 Q300,20 600,50 T1200,50 L1200,120 Z;
+          M0,120 L0,20 Q300,50 600,20 T1200,20 L1200,120 Z;
+          M0,120 L0,50 Q300,20 600,50 T1200,50 L1200,120 Z
+        "
+      />
+    </path>
+  </svg>
+  <!-- Wave 3 - Surface -->
+  <svg
+    style="position: absolute; bottom: 0; width: 100%; height: 60px;"
+    viewBox="0 0 1200 120"
+    preserveAspectRatio="none"
+  >
+    <path
+      d="M0,120 L0,40 Q300,10 600,40 T1200,40 L1200,120 Z"
+      fill="#60a5fa"
+      opacity="0.8"
+    >
+      <animate
+        attributeName="d"
+        dur="2s"
+        repeatCount="indefinite"
+        values="
+          M0,120 L0,40 Q300,10 600,40 T1200,40 L1200,120 Z;
+          M0,120 L0,10 Q300,40 600,10 T1200,10 L1200,120 Z;
+          M0,120 L0,40 Q300,10 600,40 T1200,40 L1200,120 Z
+        "
+      />
+    </path>
+  </svg>
+  <!-- Thousand Sunny Ship -->
+  <div
+    style="
+      position: absolute;
+      bottom: 0px;
+      left: 50%;
+      z-index: 10;
+    "
+  >
+    <img
+      src="assets/thousand-sunny.png"
+      width="100"
+      height="120"
+      style="
+        animation: sailCombo 8s ease-in-out infinite;
+        filter: brightness(1.25) contrast(1.1)
+          drop-shadow(0 4px 8px rgba(0, 0, 0, 0.3)) saturate(1.1);
+      "
+    />
+  </div>
+</div>
+
+<style>
+  @keyframes sailCombo {
+  0% {
+    transform: translate(-400px, -3px) rotate(0deg);
+  }
+  12.5% {
+    transform: translate(-250px, 3px) rotate(5deg);
+  }
+  25% {
+    transform: translate(-100px, -3px) rotate(7.5deg);
+  }
+  37.5% {
+    transform: translate(50px, 3px) rotate(5deg);
+  }
+  50% {
+    transform: translate(200px, -3px) rotate(2.5deg);
+  }
+  62.5% {
+    transform: translate(50px, 3px) rotate(-5deg);
+  }
+  75% {
+    transform: translate(-100px, -3px) rotate(-7.5deg);
+  }
+  87.5% {
+    transform: translate(-250px, 3px) rotate(-5deg);
+  }
+  100% {
+    transform: translate(-400px, -3px) rotate(2.5deg);
+  }
+}
+</style>
