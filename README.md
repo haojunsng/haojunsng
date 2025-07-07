@@ -80,6 +80,13 @@ I like building stuff. It started with just moving data. Then I needed to expose
 - Analytics-ready data modeling
 - [View Project](https://github.com/haojunsng/sh-thousand-sunny)
 
+### sh-nami
+*An API service that takes as input a town in Singapore and returns multiple weather metrics*
+- **FastAPI**
+- Implements API key authentication, IP filtering, and rate limiting for security and reliability
+- Deployed on Render
+- [View Project](https://github.com/haojunsng/sh-nami)
+
 ### sh-datrun-dp
 *Serverless Data Pipeline to support DATRUN*
 - **AWS Lambda** + **EventBridge** + **SQLMesh** + **DuckDB**
