@@ -2,7 +2,7 @@
 [![Website](https://img.shields.io/badge/Website-snghaojun.com-green?style=for-the-badge&logo=vercel)](https://snghaojun.com)
 
 <div align="center">
-<img src="https://media.licdn.com/dms/image/v2/D4D22AQEfqLRLdjWBlQ/feedshare-shrink_800/feedshare-shrink_800/0/1682361616360?e=1753920000&v=beta&t=e8u7i6QiHcBQ0L5k_zF5vdt8H9NJC2gU9tHv4kG1FNg" width="50%" height="50%"/>
+<img src="https://media.licdn.com/dms/image/v2/D4D22AQEfqLRLdjWBlQ/feedshare-shrink_800/feedshare-shrink_800/0/1682361616360?e=1753920000&v=beta&t=e8u7i6QiHcBQ0L5k_zF5vdt8H9NJC2gU9tHv4kG1FNg" width="70%"/>
 </div>
 
 I like building stuff. It started with just moving data. Then I needed to expose it. Then secure it. Then protect it. One thing led to another... now I'm building whatever it takes — pipelines, APIs, bots, infra, schedulers — to keep things running, live and secure.
